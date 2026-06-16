@@ -1,0 +1,64 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Data & generated reports (do not commit raw datasets)
+data/
+*.csv
+!**/reference*.csv
+
+# Report outputs
+reports/
+*.docx
+!report-assets-summary/templates/*.docx
+
+# Logs & temp
+*.log
+tmp/
+temp/
+
+# Secrets
+.env
+.env.*
+*.pem
+credentials.json
+
+# Cursor local config (keep skills in repo root, not .cursor/)
+.cursor/
